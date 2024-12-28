@@ -8,51 +8,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "funder",
-						"type": "address"
-					}
-				],
-				"name": "addressToAmountFunded",
-				"outputs": [
-					{
 						"internalType": "uint256",
-						"name": "amountFunded",
+						"name": "ethAmount",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "fund",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "funders",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "minimumUsd",
+				"name": "getConversionRate",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -65,9 +26,28 @@
 			},
 			{
 				"inputs": [],
-				"name": "withdraw",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "getPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getVersion",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -84,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"FundMe.sol": "FundMe"
+			"PriceConverter.sol": "PriceConverter"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -104,14 +84,6 @@
 			"urls": [
 				"bzz-raw://6d39e11b1dc7b9b8ccdabbc9be442ab7cda4a81c748f57e316dcb1bcb4a28bf9",
 				"dweb:/ipfs/QmaG6vz6W6iEUBsbHSBob5mdcitYxWjoygxREHpsJHfWrS"
-			]
-		},
-		"FundMe.sol": {
-			"keccak256": "0xa9d458f31a5b9aa5ece989f1536f2b0d2aee71c12708fd846d5021fb65424885",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://8730b129ae53b0b3495b036b200f81c4566967c67f5a8eaebec05aa670084120",
-				"dweb:/ipfs/QmazoEB5sbhc1nDcVKKBa6SmUjj6g1CgoVMevgaRm3ToGt"
 			]
 		},
 		"PriceConverter.sol": {
