@@ -115,7 +115,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/zkFundMe.sol": "FundMe"
+			"contracts/ZkFundMe.sol": "FundMe"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -137,7 +137,7 @@
 				"dweb:/ipfs/QmaG6vz6W6iEUBsbHSBob5mdcitYxWjoygxREHpsJHfWrS"
 			]
 		},
-		"contracts/zkFundMe.sol": {
+		"contracts/ZkFundMe.sol": {
 			"keccak256": "0x11ced2780c75c8fce05a476bfadf2d7e751811db465627d8a2fcf6e4605d21a7",
 			"license": "MIT",
 			"urls": [
